@@ -1,0 +1,176 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Origen de los números naturales — Retro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg1:#0f1021;
+      --bg2:#2b1836;
+      --accent:#ffdd57;
+      --text:#e6e1d8;
+      --glass: rgba(255,255,255,0.03);
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      min-height:100vh;
+      font-family: 'Roboto', system-ui, sans-serif;
+      background: radial-gradient(1200px 400px at 10% 10%, rgba(255,221,87,0.05), transparent 10%), linear-gradient(120deg,var(--bg1),var(--bg2));
+      color:var(--text);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:2rem;
+    }
+    .card{
+      width:min(920px,96%);
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border:1px solid rgba(255,255,255,0.06);
+      border-radius:16px;
+      padding:2rem;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.02);
+      backdrop-filter: blur(3px);
+      position:relative;
+      overflow:hidden;
+    }
+    h1{
+      font-family: 'Press Start 2P', monospace;
+      font-size:18px;
+      margin:0 0 1rem 0;
+      color:var(--accent);
+      text-shadow: 0 2px 0 rgba(0,0,0,0.6), 0 0 8px rgba(255,221,87,0.08);
+      letter-spacing:1px;
+    }
+    p.lead{
+      margin:0 0 1rem 0;
+      font-size:14px;
+      line-height:1.5;
+    }
+    .content{
+      display:grid;
+      grid-template-columns: 1fr 320px;
+      gap:1.25rem;
+    }
+    .box{
+      background:var(--glass);
+      border-radius:10px;
+      padding:1rem;
+      border:1px dashed rgba(255,255,255,0.03);
+    }
+    .sidebar{
+      font-size:12px;
+      color:#cfc9b9;
+      height:100%;
+    }
+    ul{padding-left:1rem;margin:0;margin-top:0.5rem}
+    li{margin-bottom:0.5rem}
+    .flicker{
+      position:absolute;
+      left:-20%;
+      top:-20%;
+      width:60%;
+      height:60%;
+      background: radial-gradient(circle at 30% 30%, rgba(255,221,87,0.06), transparent 20%);
+      transform: rotate(15deg);
+      pointer-events:none;
+      animation: slowfloat 6s linear infinite;
+      mix-blend-mode:screen;
+    }
+    @keyframes slowfloat{
+      0%{transform: rotate(14deg) translateY(0)}
+      50%{transform: rotate(14deg) translateY(6px)}
+      100%{transform: rotate(14deg) translateY(0)}
+    }
+    .footer{
+      margin-top:1rem;
+      font-size:11px;
+      color:#a9a191;
+      display:flex;gap:1rem;align-items:center;justify-content:space-between
+    }
+    .chip{background:rgba(0,0,0,0.25);padding:6px 10px;border-radius:999px;border:1px solid rgba(255,255,255,0.03);font-family:'Press Start 2P',monospace;font-size:10px}
+    @media (max-width:760px){
+      .content{grid-template-columns:1fr}
+      h1{font-size:14px}
+      .sidebar{order:2}
+    }
+  </style>
+</head>
+<body>
+  <div class="card" role="main">
+    <div class="flicker" aria-hidden="true"></div>
+    <h1>ORIGEN DE LOS NÚMEROS NATURALES</h1>
+    <p class="lead">Una breve mirada — estilo retro</p>
+
+    <div class="content">
+      <div class="box">
+        <p>Los <strong>números naturales</strong> surgieron de la necesidad práctica de contar: personas, animales, objetos y días. Desde las primeras civilizaciones —como los sumerios y los egipcios— la gente usó marcas, cuentas y notaciones para registrar cantidades.</p>
+        <p>Con el tiempo los símbolos evolucionaron (numerales cuneiformes, jeroglíficos, numeración hindu-arábiga) y la idea matemática se fue formalizando. Hoy llamamos "naturales" a los números usados para contar; algunos autores los empiezan en <strong>1</strong>, otros incluyen el <strong>0</strong>. En matemáticas modernas, los axiomas de Peano (siglo XIX — XX) dieron una base rigurosa para su estudio.</p>
+        <p>En resumen: los naturales nacen de contar cosas en la vida cotidiana, y se refinan por necesidades prácticas y por la búsqueda de rigor matemático.</p>
+      </div>
+
+      <aside class="box sidebar" aria-label="Datos rápidos">
+        <strong>Datos rápidos</strong>
+        <ul>
+          <li><strong>Primeros contadores:</strong> Sumerios, egipcios, pueblos de la prehistoria.</li>
+          <li><strong>Notación moderna:</strong> numeración hindu-arábiga (base decimal).</li>
+          <li><strong>¿Incluye el 0?</strong> Depende: definición 1,2,... o 0,1,2,...</li>
+          <li><strong>Axiomas:</strong> Peano (formalismo).</li>
+        </ul>
+        <div style="margin-top:0.75rem;display:flex;gap:0.5rem;flex-wrap:wrap;">
+          <span class="chip">Retro UI</span>
+          <span class="chip">Pixel font</span>
+          <span class="chip">Breve</span>
+        </div>
+      </aside>
+    </div>
+
+    <div class="footer">
+      <div>Creado con cariño — estilo vintage ✨</div>
+      <div style="opacity:0.9;font-family:'Press Start 2P',monospace;font-size:10px">v1.0</div>
+    </div>
+  </div>
+</body>
+</html>
+=======
+=======
+>>>>>>> 228335174dd08896650231cbf5e0b6bc249f9394
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Origen de los Números Naturales</title>
+</head>
+<body>
+    <header>
+        <h1>El Origen de los Números Naturales</h1>
+    </header>
+    <main>
+        <section>
+            <h2>¿Qué son los números naturales?</h2>
+            <p>Los números naturales son aquellos que utilizamos para contar y ordenar. Comienzan desde el número 1 y continúan indefinidamente: 1, 2, 3, 4, etc.</p>
+        </section>
+        <section>
+            <h2>El origen histórico</h2>
+            <p>El concepto de números naturales surgió de la necesidad de los seres humanos primitivos de contar objetos, como animales, herramientas o alimentos. Las primeras representaciones de números se encontraron en huesos tallados con marcas que datan de hace más de 20,000 años.</p>
+        </section>
+        <section>
+            <h2>Importancia en las matemáticas</h2>
+            <p>Los números naturales son la base de las matemáticas. A partir de ellos se desarrollaron otros conjuntos numéricos, como los números enteros, racionales y reales.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Creado por Estudiante - 2023</p>
+    </footer>
+</body>
+<<<<<<< HEAD
+</html>
+>>>>>>> 228335174dd08896650231cbf5e0b6bc249f9394
+=======
+</html>
+>>>>>>> 228335174dd08896650231cbf5e0b6bc249f9394
